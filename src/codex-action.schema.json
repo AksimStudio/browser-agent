@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["type", "name", "arguments", "content"],
+  "properties": {
+    "type": { "type": "string", "enum": ["tool", "final"] },
+    "name": { "type": ["string", "null"] },
+    "arguments": { "type": "string" },
+    "content": { "type": ["string", "null"] }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "autonomous-browser-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "demo": "node demo/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "openai": "^5.19.1",
+    "playwright": "^1.55.0"
+  }
+}
